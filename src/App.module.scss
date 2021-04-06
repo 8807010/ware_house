@@ -1,14 +1,18 @@
+
+
 .app {
     display: grid;
     grid-template-columns: 380px 1fr 380px;
     grid-template-rows: 6;
     grid-auto-rows: minmax(200px, auto);
+    gap: 0;
 }
 
 .cork {
     grid-area: 1/1/2/2;
     background-color: #e9eae2;
     height: 670px;
+
 }
 
 .goodThings {
@@ -16,10 +20,26 @@
     background-color: #e9eae2;
     width: 1120px;
     height: 670px;
+    background-image: url(./components/assets/images/oneLine/pepper.svg);
+    background-repeat: no-repeat;
+
 }
 
 .nav {
     grid-area: 1/3/2/4;
-    background-color:#e9eae2;
+    background-image: url(./components/assets/images/oneLine/backgrNav.png);
+    width: 100%;
+    opacity: 1;
 
+}
+
+.sevenPots {
+    grid-area: 2/1/3/2;
+    background-color: #7dd5c9;
+    
+}
+
+.rectList {
+    width: 25px;
+    height: 25px;
 }

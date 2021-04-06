@@ -5,13 +5,25 @@ function App() {
     <div className={s.app}>
 
       <div className={s.cork}>
-        <p>
-  
+        <div className={s.rectSmall}>
+          <ul className={s.rectList}>
+            <li className={s.listItem}><img className={s.colorRect}src="./components/assets/images/oneLine/rectYellow.png" alt="yellow"></img></li>
+            <li className={s.listItem}><img className={s.colorRect}src="./components/assets/images/oneLine/rectGreen.png" alt="green"></img></li>
+            <li className={s.listItem}><img className={s.colorRect}src="./components/assets/images/oneLine/rectRed.png" alt="red"></img></li>
+            <li className={s.listItem}><img className={s.colorRect}src="./components/assets/images/oneLine/rectBlue.png" alt="blue"></img></li>
+          </ul>
+          
+          
+          
+          
+        
 
-
-        </p>
+        </div>
+        <p>Cork Salt & Pepper 45.50  $</p>
 
       </div>
+
+
 
       <div className={s.goodThings}>
 
